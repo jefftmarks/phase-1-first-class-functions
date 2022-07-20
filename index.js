@@ -1,5 +1,5 @@
 function receivesAFunction(cb, name) {
-    return `${name}, ${cb()}`;
+    return cb(name);
 }
 
 function stayAwake() {
